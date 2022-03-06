@@ -3,8 +3,8 @@
 #include "alg.h"
 bool checkPrime(uint64_t value) {
   uint64_t ch = 2;
-  for (ch = 2; ch < value; ch++ ) {
-  if ((value % ch) == 0 ) {
+  for (ch = 2; ch < value; ch++) {
+  if ((value % ch) == 0) {
   return false;
   }
   }
